@@ -1,6 +1,13 @@
 ! In program name, - is not allowed
 program fibonacci
 
+
+integer :: previousnumber, currentnumber, addednumber, counter, reciever
+character(len = 60) :: message
+message = "Usage: please input the count of fibonacci numbers to output"
+print *, message
+read *, reciever
+print *, reciever
 ! Define Previous number (0?)    
 ! Define Current number (1?)     
 ! Define an Added number (0?)
@@ -15,3 +22,5 @@ program fibonacci
 ! Set Current Number to Added Number
 ! Say "Counter: Added Number"
 ! Repeat or End loop
+
+end program fibonacci
